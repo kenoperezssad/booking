@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: bookings
+    runtime: php
+    buildCommand: ""
+    startCommand: "php -S 0.0.0.0:$PORT index.php"
+    envVars:
+      - key: DB_HOST
+        value: dpg-d8ogof3sq97s73fkv12g-a
+      - key: DB_NAME
+        value: appointment_9g1j
+      - key: DB_USER
+        value: booking_user
+      - key: DB_PASS
+        value: kXyAHSBfvcxFgC2nNPVJCn6EKvkwJtLH
+      - key: DB_TYPE
+        value: pgsql
