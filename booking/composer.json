@@ -1,0 +1,8 @@
+{
+    "name": "booking/app",
+    "description": "Appointment Booking System",
+    "type": "project",
+    "require": {
+        "php": "^8.1"
+    }
+}
